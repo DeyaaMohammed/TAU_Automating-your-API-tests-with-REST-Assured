@@ -1,0 +1,29 @@
+1. What is REST Assured?
+[ ] a- A Java library for testing browser applications
+[x] b- A domain specific language for testing RESTful APIs
+[ ] c- A Python library for testing Gherkin files
+[ ] d- A JavaScript plugin for testing SOAP APIs
+
+2. For what programming language(s) is REST Assured available?
+[ ] a- Golang
+[x] b- Java
+[ ] c- Python
+[ ] d- All of the above
+
+3. How are REST Assured tests run?
+[ ] a- Using the ‘Run tests’ button in the REST Assured GUI
+[ ] b- Through the dedicated REST Assured test runner
+[x] c- REST Assured tests run on top of an xUnit testing framework, such as JUnit or TestNG
+[ ] d- By invoking the REST Assured REST API
+
+4. How can you add REST Assured as a dependency to your test project?
+[ ] a- Using GitHub
+[ ] b- Using only Gradle
+[ ] c- Using only Maven
+[x] d- Using Gradle or Maven
+
+5. What is the minimum number of lines of code that you need to create a basic REST Assured test that includes creating the request, performing the HTTP call, and performing a check on the response status code? Hint: Only count the number of lines of code in the body of the test method; the method signature does not count towards the total.
+[x] a- 1
+[ ] b- 2
+[ ] c- 3
+[ ] d- 4

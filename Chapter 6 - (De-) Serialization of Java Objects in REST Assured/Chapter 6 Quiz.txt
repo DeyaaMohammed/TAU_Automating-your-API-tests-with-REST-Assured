@@ -1,0 +1,23 @@
+1. What is a POJO?
+[ ] a- Pretty Obtrusive Java Obfuscator – A mechanism to automatically encode passwords in your Java code
+[ ] b- Python On, Java Off – A mechanism to be able to include Python in your Java code to make it easier to write Machine Learning applications
+[x] c- Plain Old Java Object – One of the simplest forms of a Java object, containing properties and methods to access and modify the values of these properties
+[ ] d- Partially Optimistic Java Operator – A new feature in Java 11 that allows you to assign a ‘maybe’ value to a Boolean variable
+
+2. Which of these statements is NOT true?
+[x] a- Deserialization is the process of creating an API request body (be it either in XML or JSON format) from a POJO
+[ ] b- Deserialization is the process of creating a POJO from an API response
+[ ] c- Serialization is the process of creating an API request body (be it either in XML or JSON format) from a POJO
+[ ] d- Serialization works for JSON as well as for XML
+
+3. Do the names of the elements in a JSON request or response have to match the names of the POJO properties exactly?
+[ ] a- Yes
+[ ] b- No, REST Assured applies heuristics to determine which JSON element matches any given POJO property
+[ ] c- No, you can specify regular expressions to map JSON elements to POJO property names
+[x] d- No, you can use the @JsonProperty annotation to map a POJO property to a JSON element and vice versa
+
+4. Which snippet is correct when you want to serialize a POJO that goes by the name of myObject to a JSON API request body in REST Assured?
+[x] a- given().contentType(ContentType.JSON).body(myObject)
+[ ] b- given().serializeToJson(myObject)
+[ ] c- when().get(“endpoint”).using().serializedAsJson(myObject)
+[ ] d- given(myObject).contentType(ContentType.JSON)

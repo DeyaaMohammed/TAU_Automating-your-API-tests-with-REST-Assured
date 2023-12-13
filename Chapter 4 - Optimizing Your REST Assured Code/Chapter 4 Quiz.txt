@@ -1,0 +1,23 @@
+1. What can you NOT do with a RequestSpecification in REST Assured?
+[ ] a- Specify a base URL for all API requests that use the RequestSpecification
+[ ] b- Specify a base path for all API requests that use the RequestSpecification
+[x] c- Specify an expected HTTP status code for all API requests that use the RequestSpecification
+[ ] d- You can do all of the above with a RequestSpecification
+
+2. What is a typical use case for using the extract() mechanism in REST Assured?
+[ ] a- What extract() mechanism? REST Assured does not have this feature
+[x] b- Extracting an authentication token from an API response body so it can be reused for subsequent API calls
+[ ] c- Extracting the status code of the API response for further inspection
+[ ] d- Extracting the API request body so it can be reused in another test run the following day
+
+3. Why would you use the RequestSpecification and/or the ResponseSpecification mechanisms?
+[ ] a- To avoid duplicated code and unnecessary test maintenance effort
+[ ] b- To allow you to define a check on an API response once and reuse it in all tests where you would like to perform that check
+[ ] c- To make your test code cleaner and easier to understand
+[x] d- All of the above
+
+4. Can you add checks on an API response that are specific to a single test method when you’re also using general checks that are defined in a ResponseSpecification?
+[x] a- Yes, these two concepts can be combined without trouble
+[ ] b- Yes, but adding a specific check on the API response body if the ResponseSpecification also contains a check on the API response body will result in an error at runtime
+[ ] c- No, you will have to write to separate test methods if you want to do this
+[ ] d- No, trying to do so will result in a syntax error

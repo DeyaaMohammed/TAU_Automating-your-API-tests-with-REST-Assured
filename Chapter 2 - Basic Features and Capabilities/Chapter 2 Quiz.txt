@@ -1,0 +1,33 @@
+1. What query language is used to extract response body elements from an XML response in a REST Assured test?
+[ ] a- JsonPath
+[ ] b- GPath
+[ ] c- XPath
+[x] d- XmlPath
+
+2. Which of these can NOT be used to extract response body elements from a JSON response in a REST Assured test?
+[ ] a- GPath
+[x] b- XPath
+[ ] c- JsonPath
+
+3. Which of these is a syntax or pattern that you can use to write REST Assured tests?
+[ ] a- The Arrange-Act-Assert pattern
+[x] b- The Gherkin syntax (Given/When/Then)
+[ ] c- The Page Object pattern
+[ ] d- The Object Repository pattern
+
+4. Which of the following is an invalid way to check that the content type of an API response body is in the JSON format?
+[x] a- then().assertThat().contentType().equalTo().JSON();
+[ ] b- then().assertThat().contentType(ContentType.JSON);
+[ ] c- then().assertThat().contentType(“application/json”);
+
+5. Which of the following fragments will log all details of an API response?
+[ ] a- given().log().all()
+[ ] b- given().log().body()
+[x] c- then().log().all()
+[ ] d- then().log().body()
+
+6. What can you NOT do with JsonPath and Hamcrest matchers in REST Assured?
+[x] a- Query a response body for an individual element and check the size of the collection that the element is part of
+[ ] b- Query a response body for an individual element and check its value against an expected value
+[ ] c- Query a response body for a collection of elements and check the size of the collection
+[ ] d- Query a response body for a collection of elements and check whether an individual value is in the obtained list of elements values

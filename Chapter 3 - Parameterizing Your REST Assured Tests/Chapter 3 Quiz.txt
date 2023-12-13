@@ -1,0 +1,23 @@
+1. What kind of REST API parameters does REST Assured support?
+[ ] a- Only query parameters
+[ ] b- Only path parameters
+[x] c- Both query and path parameters
+[ ] d- REST Assured does not support parameters
+
+2. When is it a good idea to parameterize your REST Assured tests?
+[ ] a- When you want to run the same test for different combinations of input parameters and expected outcome values
+[ ] b- When you want to be able to quickly add new test data combinations and change existing combinations without having to touch the test code logic
+[ ] c- When you want to avoid duplicated code
+[x] d- All of the above
+
+3. Which statement is NOT true about the @DataProvider mechanism?
+[ ] a- It returns a two-dimensional array containing all of the data values that you can use in your REST Assured tests
+[ ] b- The name of the method annotated with @DataProvider has to match the value specified in the @UseDataProvider(“”) to enable your REST Assured tests to access the test data values
+[x] c- The @DataProvider mechanism as shown is built into both JUnit 4 (the version used in the course) and TestNG by default
+[ ] d- When you have parameterized your REST Assured tests, you only need to add another combination of test data values to the two-dimensional array returned by your @DataProvider method to create a new test iteration
+
+4. In what way are the test data values as they are specified in the two-dimensional test data array mapped to the arguments of your test method?
+[ ] a- By name
+[ ] b- By value
+[ ] c- By data type
+[x] d- By the order in which they appear
