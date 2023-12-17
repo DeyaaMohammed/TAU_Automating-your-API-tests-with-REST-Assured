@@ -56,9 +56,9 @@ In those cases where the actual API could not be used (it doesn't have an option
 
 ## Usage
 
-You can go ahead and explore my collection and quiz solutions by navigating to the specific chapter and associated directories within the repository. Each quiz text file contains my quiz answers.
+You can go ahead and explore my code implementations and quiz solutions by navigating to the specific chapter and associated directories within the repository. Each quiz text file contains my quiz answers.
 
-Feel free to use these collections as reference code, study materials, or review materials to enhance your understanding of Postman. Additionally, you can review my quiz solutions to reinforce your knowledge of the course content.
+Feel free to use these code implementations as reference code, study materials, or review materials to enhance your understanding of Postman. Additionally, you can review my quiz solutions to reinforce your knowledge of the course content.
 
 ## Contributions
 
